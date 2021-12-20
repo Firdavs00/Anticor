@@ -1,0 +1,6 @@
+framework module Pods_Anticor {
+  umbrella header "Pods-Anticor-umbrella.h"
+
+  export *
+  module * { export * }
+}

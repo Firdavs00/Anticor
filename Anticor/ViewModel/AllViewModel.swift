@@ -103,7 +103,7 @@ class ViewModel: ObservableObject {
         
         let headers: HTTPHeaders = [
             .authorization("Bearer " + userDefault.getToken()),
-            .accept("application/json") ]
+            .accept("application/json") ] // uz/api/appeal/
         
         AF.upload(multipartFormData: { multipartFormData in
             multipartFormData.append("\(cityId)".data(using: .utf8)! , withName : "region")
@@ -113,7 +113,7 @@ class ViewModel: ObservableObject {
             multipartFormData.append("\(summ)".data(using: .utf8)!, withName :"amount")
             multipartFormData.append("\(text)".data(using: .utf8)!, withName :"text")
             multipartFormData.append("\(1)".data(using: .utf8)!, withName :"currency")
-        }, to: "https://eanticor.uz/uz/api/appeal/", method: .post, headers: headers)
+        }, to: "https://eanticor.uz/", method: .post, headers: headers)
             .responseJSON { response in
                 switch response.result {
                 case .success:
