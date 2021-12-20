@@ -7,18 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1435EB1F47E2564DB41BCA39 /* Pods_Anticor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB8BA58BB5C050D09C086B /* Pods_Anticor.framework */; };
 		2EB0EEC3276883F500831805 /* AnticorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEC2276883F500831805 /* AnticorApp.swift */; };
-		2EB0EEC5276883F500831805 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEC4276883F500831805 /* ContentView.swift */; };
 		2EB0EEC7276883F700831805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB0EEC6276883F700831805 /* Assets.xcassets */; };
 		2EB0EECA276883F700831805 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB0EEC9276883F700831805 /* Preview Assets.xcassets */; };
+		2EB0EED6276892B900831805 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EED5276892B900831805 /* UserDefaults.swift */; };
+		2EB0EED8276892C700831805 /* CodeToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EED7276892C700831805 /* CodeToken.swift */; };
+		2EB0EEDA276892DA00831805 /* AllViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EED9276892DA00831805 /* AllViewModel.swift */; };
+		2EB0EEE1276892E200831805 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEDB276892E200831805 /* News.swift */; };
+		2EB0EEE2276892E200831805 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EB0EEDC276892E200831805 /* menu.json */; };
+		2EB0EEE3276892E200831805 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEDD276892E200831805 /* RegionModel.swift */; };
+		2EB0EEE4276892E200831805 /* Complain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEDE276892E200831805 /* Complain.swift */; };
+		2EB0EEE5276892E200831805 /* OrganizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEDF276892E200831805 /* OrganizationModel.swift */; };
+		2EB0EEE6276892E200831805 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEE0276892E200831805 /* TokenModel.swift */; };
+		2EB0EEEE276892EC00831805 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEE7276892EC00831805 /* CheckoutView.swift */; };
+		2EB0EEEF276892EC00831805 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEE8276892EC00831805 /* WebView.swift */; };
+		2EB0EEF0276892EC00831805 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEE9276892EC00831805 /* SettingsView.swift */; };
+		2EB0EEF1276892EC00831805 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEEA276892EC00831805 /* ContentView.swift */; };
+		2EB0EEF2276892EC00831805 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEEB276892EC00831805 /* OrderView.swift */; };
+		2EB0EEF3276892EC00831805 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEEC276892EC00831805 /* MainView.swift */; };
+		2EB0EEF4276892EC00831805 /* Successful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEED276892EC00831805 /* Successful.swift */; };
+		2EB0EEFB2768931E00831805 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEF52768931D00831805 /* Order.swift */; };
+		2EB0EEFC2768931E00831805 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEF62768931D00831805 /* ItemRow.swift */; };
+		2EB0EEFD2768931E00831805 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEF72768931E00831805 /* ItemDetail.swift */; };
+		2EB0EEFE2768931E00831805 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEF82768931E00831805 /* Helper.swift */; };
+		2EB0EEFF2768931E00831805 /* ItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEF92768931E00831805 /* ItemSheet.swift */; };
+		2EB0EF002768931E00831805 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EEFA2768931E00831805 /* Menu.swift */; };
+		2EB0EF032768938D00831805 /* WebViewNavigationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EF012768938D00831805 /* WebViewNavigationAction.swift */; };
+		2EB0EF042768938D00831805 /* URLType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0EF022768938D00831805 /* URLType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23A6760DFEBA7DCF7D68F300 /* Pods-Anticor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anticor.release.xcconfig"; path = "Target Support Files/Pods-Anticor/Pods-Anticor.release.xcconfig"; sourceTree = "<group>"; };
 		2EB0EEBF276883F500831805 /* Anticor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anticor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB0EEC2276883F500831805 /* AnticorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnticorApp.swift; sourceTree = "<group>"; };
-		2EB0EEC4276883F500831805 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2EB0EEC6276883F700831805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EB0EEC9276883F700831805 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EB0EED5276892B900831805 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		2EB0EED7276892C700831805 /* CodeToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeToken.swift; sourceTree = "<group>"; };
+		2EB0EED9276892DA00831805 /* AllViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllViewModel.swift; sourceTree = "<group>"; };
+		2EB0EEDB276892E200831805 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		2EB0EEDC276892E200831805 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		2EB0EEDD276892E200831805 /* RegionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
+		2EB0EEDE276892E200831805 /* Complain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Complain.swift; sourceTree = "<group>"; };
+		2EB0EEDF276892E200831805 /* OrganizationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationModel.swift; sourceTree = "<group>"; };
+		2EB0EEE0276892E200831805 /* TokenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		2EB0EEE7276892EC00831805 /* CheckoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		2EB0EEE8276892EC00831805 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		2EB0EEE9276892EC00831805 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2EB0EEEA276892EC00831805 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2EB0EEEB276892EC00831805 /* OrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		2EB0EEEC276892EC00831805 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2EB0EEED276892EC00831805 /* Successful.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Successful.swift; sourceTree = "<group>"; };
+		2EB0EEF52768931D00831805 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2EB0EEF62768931D00831805 /* ItemRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		2EB0EEF72768931E00831805 /* ItemDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		2EB0EEF82768931E00831805 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		2EB0EEF92768931E00831805 /* ItemSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSheet.swift; sourceTree = "<group>"; };
+		2EB0EEFA2768931E00831805 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2EB0EF012768938D00831805 /* WebViewNavigationAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewNavigationAction.swift; sourceTree = "<group>"; };
+		2EB0EF022768938D00831805 /* URLType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLType.swift; sourceTree = "<group>"; };
+		6ADB8BA58BB5C050D09C086B /* Pods_Anticor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anticor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B505288C4496FC32E96CFE /* Pods-Anticor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anticor.debug.xcconfig"; path = "Target Support Files/Pods-Anticor/Pods-Anticor.debug.xcconfig"; sourceTree = "<group>"; };
+		889F11572770D19D00F2F502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1435EB1F47E2564DB41BCA39 /* Pods_Anticor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +89,8 @@
 			children = (
 				2EB0EEC1276883F500831805 /* Anticor */,
 				2EB0EEC0276883F500831805 /* Products */,
+				5E6DBA0F38418923EDED9F18 /* Pods */,
+				8861BCA31E54149C9C0665FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +105,21 @@
 		2EB0EEC1276883F500831805 /* Anticor */ = {
 			isa = PBXGroup;
 			children = (
+				889F11572770D19D00F2F502 /* Info.plist */,
+				2EB0EF022768938D00831805 /* URLType.swift */,
+				2EB0EF012768938D00831805 /* WebViewNavigationAction.swift */,
+				2EB0EED4276892A200831805 /* Views */,
+				2EB0EED32768929800831805 /* Model */,
+				2EB0EED22768928A00831805 /* ViewModel */,
+				2EB0EED12768927900831805 /* Network */,
+				2EB0EED02768925C00831805 /* UserDefault */,
 				2EB0EEC2276883F500831805 /* AnticorApp.swift */,
-				2EB0EEC4276883F500831805 /* ContentView.swift */,
+				2EB0EEF82768931E00831805 /* Helper.swift */,
+				2EB0EEF72768931E00831805 /* ItemDetail.swift */,
+				2EB0EEF62768931D00831805 /* ItemRow.swift */,
+				2EB0EEF92768931E00831805 /* ItemSheet.swift */,
+				2EB0EEFA2768931E00831805 /* Menu.swift */,
+				2EB0EEF52768931D00831805 /* Order.swift */,
 				2EB0EEC6276883F700831805 /* Assets.xcassets */,
 				2EB0EEC8276883F700831805 /* Preview Content */,
 			);
@@ -67,6 +134,75 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2EB0EED02768925C00831805 /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				2EB0EED5276892B900831805 /* UserDefaults.swift */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		2EB0EED12768927900831805 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2EB0EED7276892C700831805 /* CodeToken.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2EB0EED22768928A00831805 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2EB0EED9276892DA00831805 /* AllViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2EB0EED32768929800831805 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EB0EEDE276892E200831805 /* Complain.swift */,
+				2EB0EEDC276892E200831805 /* menu.json */,
+				2EB0EEDB276892E200831805 /* News.swift */,
+				2EB0EEDF276892E200831805 /* OrganizationModel.swift */,
+				2EB0EEDD276892E200831805 /* RegionModel.swift */,
+				2EB0EEE0276892E200831805 /* TokenModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2EB0EED4276892A200831805 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EB0EEE7276892EC00831805 /* CheckoutView.swift */,
+				2EB0EEEA276892EC00831805 /* ContentView.swift */,
+				2EB0EEEC276892EC00831805 /* MainView.swift */,
+				2EB0EEEB276892EC00831805 /* OrderView.swift */,
+				2EB0EEE9276892EC00831805 /* SettingsView.swift */,
+				2EB0EEED276892EC00831805 /* Successful.swift */,
+				2EB0EEE8276892EC00831805 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E6DBA0F38418923EDED9F18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82B505288C4496FC32E96CFE /* Pods-Anticor.debug.xcconfig */,
+				23A6760DFEBA7DCF7D68F300 /* Pods-Anticor.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8861BCA31E54149C9C0665FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ADB8BA58BB5C050D09C086B /* Pods_Anticor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EB0EECD276883F700831805 /* Build configuration list for PBXNativeTarget "Anticor" */;
 			buildPhases = (
+				737E78669A3BF655C92C25C1 /* [CP] Check Pods Manifest.lock */,
 				2EB0EEBB276883F500831805 /* Sources */,
 				2EB0EEBC276883F500831805 /* Frameworks */,
 				2EB0EEBD276883F500831805 /* Resources */,
+				23A8CE5E395C4F0190A2AF45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB0EEE2276892E200831805 /* menu.json in Resources */,
 				2EB0EECA276883F700831805 /* Preview Assets.xcassets in Resources */,
 				2EB0EEC7276883F700831805 /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +271,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23A8CE5E395C4F0190A2AF45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anticor/Pods-Anticor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anticor/Pods-Anticor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Anticor/Pods-Anticor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737E78669A3BF655C92C25C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Anticor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EB0EEBB276883F500831805 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EB0EEC5276883F500831805 /* ContentView.swift in Sources */,
+				2EB0EEE1276892E200831805 /* News.swift in Sources */,
+				2EB0EEEE276892EC00831805 /* CheckoutView.swift in Sources */,
+				2EB0EF032768938D00831805 /* WebViewNavigationAction.swift in Sources */,
+				2EB0EEF1276892EC00831805 /* ContentView.swift in Sources */,
+				2EB0EEF4276892EC00831805 /* Successful.swift in Sources */,
+				2EB0EEDA276892DA00831805 /* AllViewModel.swift in Sources */,
+				2EB0EEE6276892E200831805 /* TokenModel.swift in Sources */,
+				2EB0EEFB2768931E00831805 /* Order.swift in Sources */,
+				2EB0EEFE2768931E00831805 /* Helper.swift in Sources */,
 				2EB0EEC3276883F500831805 /* AnticorApp.swift in Sources */,
+				2EB0EEFF2768931E00831805 /* ItemSheet.swift in Sources */,
+				2EB0EEFD2768931E00831805 /* ItemDetail.swift in Sources */,
+				2EB0EEE5276892E200831805 /* OrganizationModel.swift in Sources */,
+				2EB0EF042768938D00831805 /* URLType.swift in Sources */,
+				2EB0EEFC2768931E00831805 /* ItemRow.swift in Sources */,
+				2EB0EEE4276892E200831805 /* Complain.swift in Sources */,
+				2EB0EEF3276892EC00831805 /* MainView.swift in Sources */,
+				2EB0EEF2276892EC00831805 /* OrderView.swift in Sources */,
+				2EB0EF002768931E00831805 /* Menu.swift in Sources */,
+				2EB0EEE3276892E200831805 /* RegionModel.swift in Sources */,
+				2EB0EEEF276892EC00831805 /* WebView.swift in Sources */,
+				2EB0EED8276892C700831805 /* CodeToken.swift in Sources */,
+				2EB0EED6276892B900831805 /* UserDefaults.swift in Sources */,
+				2EB0EEF0276892EC00831805 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +466,7 @@
 		};
 		2EB0EECE276883F700831805 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B505288C4496FC32E96CFE /* Pods-Anticor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -272,6 +476,7 @@
 				DEVELOPMENT_TEAM = 7KSPKA8G9Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Anticor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -292,6 +497,7 @@
 		};
 		2EB0EECF276883F700831805 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A6760DFEBA7DCF7D68F300 /* Pods-Anticor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +507,7 @@
 				DEVELOPMENT_TEAM = 7KSPKA8G9Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Anticor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
